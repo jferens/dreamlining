@@ -53,4 +53,22 @@ doing.append(raw_input("5. "))
 
 print (doing)
 
+mergedlist = having + being + doing
 
+num = 1
+
+print "\n\n"
+
+for i in mergedlist:
+    print "str(num): " + i
+    num += 1
+
+print "\n\n"
+
+selected_dreams = []
+
+print "Select 4 dreams by typing in their numbers below: "
+selected_dreams.append(raw_input("Please enter your First selected dream: "))
+selected_dreams.append(raw_input("Please enter your Second selected dream: "))
+selected_dreams.append(raw_input("Please enter your Third selected dream: "))
+selected_dreams.append(raw_input("Please enter your Fourth selected dream: "))
