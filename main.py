@@ -60,7 +60,7 @@ num = 1
 print "\n\n"
 
 for i in mergedlist:
-    print "str(num): " + i
+    print str(num)+": " + i
     num += 1
 
 print "\n\n"
